@@ -1,4 +1,5 @@
 import json
+import os
 
 import pandas as pd
 from azure.storage.blob import BlockBlobService
@@ -23,6 +24,9 @@ def main():
     # Import excel file in pandas
     df = pd.read_excel(local_filename)
     print(df.head())
+
+    # Clean up
+    os.remove(local_filename)
 
 
 if __name__ == "__main__":
