@@ -1,0 +1,6 @@
+{
+  "AZURE_STORAGE": {
+    "STORAGE_ACCOUNT_NAME": "...",
+    "STORAGE_ACCOUNT_KEY": "..."
+  }
+}
